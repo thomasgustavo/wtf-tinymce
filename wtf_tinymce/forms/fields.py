@@ -70,6 +70,7 @@ class TinyMceField(TextAreaField):
         tinymce_options.setdefault('statusbar', False)
         tinymce_options.setdefault('menubar', False)
         tinymce_options.setdefault('resize', True)
+        tinymce_options.setdefault('language', 'pt_BR')
 
         # Remove options that cannot be set by callers
         tinymce_options.pop('content_css', None)
